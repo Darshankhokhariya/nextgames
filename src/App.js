@@ -35,7 +35,7 @@ function App() {
             <div class="btn">
               <button
                 onClick={() => {
-                  window.location.href = "http://localhost:3000/2048.html";
+                  window.location.href = `${process.env.REACT_APP_URL}/ 2048.html`;
                 }}
                 class="uppercase font-semibold text-xs px-2 whitespace-nowrap py-1 rounded-full bg-white text-gray-800"
               >
@@ -74,7 +74,7 @@ function App() {
             <div class="btn">
               <button
                 onClick={() => {
-                  window.location.href = "http://localhost:3000/tetris.html";
+                  window.location.href = `${process.env.REACT_APP_URL}/tetris.html`;
                 }}
                 class="uppercase font-semibold text-xs px-2 whitespace-nowrap py-1 rounded-full bg-white text-gray-800"
               >
@@ -113,7 +113,7 @@ function App() {
             <div class="btn">
               <button
                 onClick={() => {
-                  window.location.href = "http://localhost:3000/racing.html";
+                  window.location.href = `${process.env.REACT_APP_URL}/racing.html`;
                 }}
                 class="uppercase font-semibold text-xs px-2 whitespace-nowrap py-1 rounded-full bg-white text-gray-800"
               >
